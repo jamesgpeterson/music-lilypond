@@ -18,11 +18,12 @@
 
 
 melody =
-\relative c'
+\relative c,
 {
   \repeat volta 2
   {
     \language "english"
+    \clef "bass"
     \key g \major
     \time 3/4
     g'4 b d
